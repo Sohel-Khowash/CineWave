@@ -1,0 +1,32 @@
+<!-- res/layout/movie_item.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:paddingTop="8dp"
+    android:paddingBottom="8dp">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/movieimg"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:padding="0dp"
+        android:src="@drawable/placeholder"
+        android:contentDescription="@string/movie_poster"
+        app:shapeAppearance="@style/RoundedImageView" />
+
+    <TextView
+        android:id="@+id/movietitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Movie Title"
+        android:textSize="14sp"
+        android:textColor="#FFFFFF"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:gravity="center"
+        android:paddingTop="4dp" />
+</LinearLayout>

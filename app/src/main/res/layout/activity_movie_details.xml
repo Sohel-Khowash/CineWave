@@ -1,0 +1,100 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/bgcolor">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <!-- Movie Poster Card -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="300dp"
+            android:layout_height="400dp"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="8dp"
+            android:layout_marginBottom="20dp">
+
+            <ImageView
+                android:id="@+id/ivPosterDetail"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:contentDescription="@string/movie_poster" />
+        </androidx.cardview.widget.CardView>
+
+        <!-- Play Trailer Button -->
+        <Button
+            android:id="@+id/btnPlayTrailer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="▶ Play Trailer"
+            android:textAllCaps="false"
+            android:backgroundTint="@color/button_color"
+            android:textColor="@color/black"
+            android:drawablePadding="8dp"
+            android:paddingLeft="24dp"
+            android:paddingRight="24dp"
+            android:paddingTop="12dp"
+            android:paddingBottom="12dp"
+            android:elevation="4dp"
+            android:layout_marginBottom="20dp" />
+
+        <!-- Movie Title -->
+        <TextView
+            android:id="@+id/tvTitleDetail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:layout_marginBottom="8dp" />
+
+        <!-- Release Date -->
+        <TextView
+            android:id="@+id/tvReleaseDateDetail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textStyle="italic"
+            android:layout_marginBottom="4dp" />
+
+        <!-- Rating -->
+        <TextView
+            android:id="@+id/tvRatingDetail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:layout_marginBottom="12dp" />
+
+        <!-- Overview -->
+        <TextView
+            android:id="@+id/tvOverviewDetail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:lineSpacingExtra="6dp"
+            android:layout_marginBottom="24dp" />
+
+        <!-- Watchlist Button -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/watchlistButton"
+            style="@style/Widget.Material3.Button"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="Add to Watchlist"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:backgroundTint="@color/button_color"
+            app:icon="@drawable/watchlist"
+            app:iconTint="@color/black"
+            app:iconGravity="textStart" />
+
+    </LinearLayout>
+</ScrollView>
