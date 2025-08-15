@@ -31,18 +31,24 @@ CineWave is an Android application that allows users to explore, discover, and s
 
 ## Screenshots
 
-### Home Screen
-<img src="app/src/main/screenshots/Screenshot%20(108).png" alt="Screenshot 108" width="300"/>
+<div style="display: flex; flex-wrap: wrap; gap: 10px;">
 
-### Movie Details
-![Movie Details](app/src/main/screenshots/Screenshot(109).png)
+<!-- Home Screen -->
+<img src="app/src/main/screenshots/Screenshot%20(108).png" alt="Home Screen" width="200"/>
 
-### Trailer,Cast and Similar movies
-![Extra Details](app/src/main/screenshots/Screenshot(110).png)
+<!-- Movie Details -->
+<img src="app/src/main/screenshots/Screenshot%20(109).png" alt="Movie Details" width="200"/>
 
-### Watchlist
-![Watchlist](app/src/main/screenshots/Screenshot(112).png)
+<!-- Cast Details -->
+<img src="app/src/main/screenshots/Screenshot%20(110).png" alt="Cast Details" width="200"/>
 
+<!-- Trailer Details -->
+<img src="app/src/main/screenshots/Screenshot%20(111).png" alt="Trailer Details" width="200"/>
+
+<!-- Watchlist -->
+<img src="app/src/main/screenshots/Screenshot%20(112).png" alt="Watchlist" width="200"/>
+
+</div>
 
 ---
 
