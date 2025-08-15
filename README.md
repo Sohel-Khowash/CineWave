@@ -43,8 +43,6 @@ CineWave is an Android application that allows users to explore, discover, and s
 <!-- Trailer Details -->
 <img src="app/src/main/screenshots/Screenshot%20(111).png" alt="Trailer Details" width="220"/>
 
-<!-- Watchlist -->
-<img src="app/src/main/screenshots/Screenshot%20(112).png" alt="Watchlist" width="220"/>
 
 </div>
 
