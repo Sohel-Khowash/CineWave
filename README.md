@@ -32,7 +32,7 @@ CineWave is an Android application that allows users to explore, discover, and s
 ## Screenshots
 
 ### Home Screen
-![Home Screen](app/src/main/screenshots/Screenshot%20(108).png)
+<img src="app/src/main/screenshots/Screenshot%20(108).png" alt="Screenshot 108" width="300"/>
 
 ### Movie Details
 ![Movie Details](app/src/main/screenshots/Screenshot(109).png)
